@@ -1,0 +1,23 @@
+{
+    "name": "leit040/itea_hw",
+    "description": "My homework project",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Leit040\\itea_hw\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leit040",
+            "email": "leit2040@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "leit040/itea_package": "dev-master",
+        "leit040/docker-nginx": "dev-master"
+
+    }
+}
